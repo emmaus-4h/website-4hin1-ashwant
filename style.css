@@ -23,7 +23,8 @@ body * {                          /* geldt voor alles in body */
 
 .page {
   width: 700px;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;              /* boven en onder 0 pixels marge, links en rechts marge gelijk verdeeld (gecentreerd) */
+  margin: 10px auto;
+  border:solid red;
 }
 
 header, footer {                  /* geldt voor header en footer */
@@ -84,12 +85,12 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #dddddd;
+    background-color: black;
     overflow: hidden;
 }
 
 nav ul li {
-    float: left;
+    float:left;
 }
 
 nav li a {
@@ -106,4 +107,12 @@ nav li a:hover {
 
 nav li a.active {
     background-color: skyblue;
+}
+
+/* Id's + classes*/
+#hoofdtitel {
+  color:black;
+  text-shadow:2px 2px lime;
+  background-image: radial-gradient(lightblue,green)
+  
 }
