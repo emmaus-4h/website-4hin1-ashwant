@@ -21,8 +21,8 @@ body * {                          /* geldt voor alles in body */
 
 /* Indeling voor alle pagina's */
 
-.page {
-  width: 700px;                   /* vaste breedte van 700 pixels */
+.box1 {
+  width: auto;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;
   border:solid red;
 }
@@ -71,48 +71,54 @@ h1, h2, h3 {
 }
 
 a {
-    color: skyblue;
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+    
 }
 
 
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
-    margin: auto;
+    margin:auto;
     padding: 0;
     background-color: black;
     overflow: hidden;
+  
+    
 }
 
 nav ul li {
     float:left;
+  margin-left:300px;
 }
 
 nav li a {
     display: block;
-    color: white;
+    color: green;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+  transition: 2s;
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    font-size: 160%;
+  transition: 0.5s;
 }
 
 nav li a.active {
-    background-color: skyblue;
+  text-decoration: underline;
+  text-decoration-color: mediumseagreen;
 }
 
 /* Id's + classes*/
 #hoofdtitel {
+  transition-duration: 2s;
+  font-size:200%;
   color:black;
   text-shadow:2px 2px lime;
-  background-image: radial-gradient(lightblue,green)
-  
+  background-image: radial-gradient(lightblue,green);
 }
