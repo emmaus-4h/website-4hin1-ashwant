@@ -25,6 +25,23 @@ body * {                          /* geldt voor alles in body */
   width: auto;                   /* vaste breedte van 700 pixels */
   margin: 10px auto;
   border:solid red;
+  border-radius:40px;
+}
+
+.box2{
+  width:960px;
+  height: 800px;
+  border:solid red;
+  border-radius:40px;
+  float:left;
+}
+
+.box3{
+  width:945px;
+  height: 800px;
+  border:solid red;
+  border-radius:40px;
+  float:right;
 }
 
 header, footer {                  /* geldt voor header en footer */
