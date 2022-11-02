@@ -11,7 +11,7 @@ html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
   background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
   color: #303030;               /* tekstkleur donkergrijs */
-  background-image: url("afbeeldingen/dinopicca.jpeg");
+  background-image: url("afbeeldingen/groen.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
 }  
@@ -59,8 +59,9 @@ header, footer {                  /* geldt voor header en footer */
 }
 
 main {                       
-  text-align: justify;            /* tekst uitvullen */}
-
+  text-align: justify;           /* tekst uitvullen */
+}
+  
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
@@ -148,4 +149,10 @@ nav li a.active {
   color:black;
   text-shadow:2px 2px lime;
   background-image: radial-gradient(lightblue,green);
+}
+
+.tekst{
+  color: white;
+  font-size: 25px;
+  text-align: center;
 }
