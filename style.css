@@ -27,7 +27,7 @@ body * {                          /* geldt voor alles in body */
 
 .box1 {
   width: auto;                   /* vaste breedte van 700 pixels */
-  margin: 10px auto;
+  margin: 30px;
   border:solid red;
   border-radius:40px;
 }
@@ -120,7 +120,7 @@ nav ul {
 
 nav ul li {
     float:left;
-  margin-left:300px;
+  margin-left:350px;
 }
 
 nav li a {
