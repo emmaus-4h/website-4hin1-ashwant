@@ -25,18 +25,24 @@ body * {                          /* geldt voor alles in body */
 
 /* Indeling voor alle pagina's */
 
+.boxbody{
+  width:auto;
+  height:937px;
+  border:solid blue;
+  border-radius:10px;
+}
+
 .box1 {
   width: auto;                   /* vaste breedte van 700 pixels */
-  /*margin: 30px;
   border:solid red;
-  border-radius:40px;*/
+  border-radius:40px;
 }
 
 .box2{
   width:930px;
   height: 780px;
-  /*border:solid red;
-  border-radius:40px;*/
+  border:solid red;
+  border-radius:40px;
   float:left;
   margin-left:10px;
 }
@@ -44,8 +50,8 @@ body * {                          /* geldt voor alles in body */
 .box3{
   width:930px;
   height: 780px;
-  /*border:solid red;
-  border-radius:40px;*/
+  border:solid red;
+  border-radius:40px;
   float:right;
   margin-right:10px;
 }
@@ -53,6 +59,15 @@ body * {                          /* geldt voor alles in body */
 .box4{
   width: 400px;
   height: 250px;
+}
+
+.box5{
+  width:930px;
+  height: 600px;
+  border:solid red;
+  border-radius:40px;
+  float:left;
+  margin-left:10px;
 }
 
 
@@ -182,3 +197,10 @@ nav li a.active {
   margin-top:30px;
   margin-left:100px;
  }
+
+.animation{
+  width:20px;
+  height:20px;
+  background-color: red;
+}
+
