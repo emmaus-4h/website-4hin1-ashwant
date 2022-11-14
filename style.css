@@ -9,7 +9,7 @@
 
 html, body {                      /* geldt voor html en body */
   margin: 0px;                    /* standaard marge 0 */
-  background-color: #EEEEEE;    /* achtergrondkleur lichtgrijs */
+     
   color: #303030;               /* tekstkleur donkergrijs */
   background-image: url("afbeeldingen/groen.jpeg");
   background-repeat: no-repeat;
@@ -27,18 +27,18 @@ body * {                          /* geldt voor alles in body */
 
 .boxbody{
   width:auto;
-  height:auto;
+  height:100%;
   border:solid blue;
   border-radius:10px;
 }
 
-.box1 {
+.boxnav {
   width: auto;                   /* vaste breedte van 700 pixels */
   border:solid red;
   border-radius:40px;
 }
 
-.box2{
+.boxlinks{
   width:930px;
   height: 780px;
   border:solid red;
@@ -47,7 +47,7 @@ body * {                          /* geldt voor alles in body */
   margin-left:10px;
 }
 
-.box3{
+.boxrechts{
   width:930px;
   height: 780px;
   border:solid red;
@@ -55,29 +55,11 @@ body * {                          /* geldt voor alles in body */
   float:right;
 }
 
-.box4{
-  width: 400px;
-  height: 250px;
-}
-
-.box5{
-  width:930px;
-  height: 600px;
-  border:solid red;
-  border-radius:40px;
-  float:left;
-  margin-left:10px;
-}
-
 .boxmidden {
  border: solid 20px red;
   width:fit-content;
   margin-left:auto;
   margin-right:auto;
-}
-
-header, footer {                  /* geldt voor header en footer */
-  margin: 10px 0px;
 }
 
 main {                       
@@ -111,10 +93,6 @@ p {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: skyblue;
-}
-
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -124,11 +102,6 @@ a {
     text-decoration: none;
 }
 
-/*a:hover {
-    
-} */
-
-
 /* Navigatiebalk voor alle pagina's */
 nav ul {
     list-style-type: none;
@@ -136,8 +109,6 @@ nav ul {
     padding: 0;
     background-color: black;
     overflow: hidden;
-  
-    
 }
 
 nav ul li {
@@ -204,8 +175,12 @@ nav li a.active {
  }
 
 .animation{
-  width:20px;
-  height:20px;
-  background-color: red;
+  width:230px;
+  height:230px;
+}
+
+.gif{
+  width: 220px;
+  height:220px;
 }
 
