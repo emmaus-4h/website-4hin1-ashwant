@@ -39,6 +39,7 @@ body * {                          /* geldt voor alles in body */
 }
 
 .boxlinks{
+  
   width:930px;
   height: 780px;
   border:solid red;
@@ -60,6 +61,8 @@ body * {                          /* geldt voor alles in body */
   width:fit-content;
   margin-left:auto;
   margin-right:auto;
+  display:flex;
+  justify-content: center;
 }
 
 main {                       
@@ -109,11 +112,11 @@ nav ul {
     padding: 0;
     background-color: black;
     overflow: hidden;
+    display: flex;
+    justify-content: space-around;
 }
 
 nav ul li {
-    float:left;
-  margin-left:350px;
 }
 
 nav li a {
@@ -174,9 +177,20 @@ nav li a.active {
   margin-left:100px;
  }
 
+@keyframes Dino{
+  0%{left:-5vw; top:0px;}
+  
+  100%{left:105vw; top:0px;}
+}
+
 .animation{
   width:230px;
   height:230px;
+  position:relative;
+  animation-name:Dino;
+  animation-duration:9s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
 }
 
 .gif{
