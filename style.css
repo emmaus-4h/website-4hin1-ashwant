@@ -28,36 +28,37 @@ body * {                          /* geldt voor alles in body */
 .boxbody{
   width:auto;
   height:100%;
-  border:solid blue;
-  border-radius:10px;
+  /*border:solid blue;
+  border-radius:10px;*/
 }
 
 .boxnav {
   width: auto;                   /* vaste breedte van 700 pixels */
-  border:solid red;
-  border-radius:40px;
+  /*border:solid red;
+  border-radius:40px;*/
 }
 
 .boxlinks{
   
   width:930px;
   height: 780px;
-  border:solid red;
-  border-radius:40px;
+  /*border:solid red;
+  border-radius:20px;*/
   float:left;
   margin-left:10px;
+  margin-top:20px;
 }
 
 .boxrechts{
   width:930px;
   height: 780px;
-  border:solid red;
-  border-radius:40px;
+  /*border:solid red;
+  border-radius:40px;*/
   float:right;
 }
 
 .boxmidden {
- border: solid 20px red;
+ /*border: solid 20px red;*/
   width:fit-content;
   margin-left:auto;
   margin-right:auto;
