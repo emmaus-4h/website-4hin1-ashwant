@@ -152,6 +152,7 @@ nav li a.active {
   color: white;
   font-size: 25px;
   text-align: center;
+  text-shadow: 4px 2px black;
 }
 
 .tlex{
@@ -197,5 +198,11 @@ nav li a.active {
 .gif{
   width: 220px;
   height:220px;
+}
+
+#deco{
+  color: red;
+  text-decoration: underline dotted;
+  text-decoration-thickness: 5px ;
 }
 
