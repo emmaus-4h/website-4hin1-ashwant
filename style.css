@@ -73,7 +73,7 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
-  color: red;
+  
 } 
 
 p {
@@ -201,9 +201,17 @@ nav li a.active {
   height:220px;
 }
 
+.strook{
+  background-color:white;
+  border:solid 2px red;
+  width:100%;
+  height:230px;
+  
+}
+
 #deco{
   color: red;
   text-decoration: underline dotted;
-  text-decoration-thickness: 5px ;
+  text-decoration-thickness: 3px ;
 }
 
