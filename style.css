@@ -215,3 +215,18 @@ nav li a.active {
   text-decoration-thickness: 3px ;
 }
 
+@keyframes Kippie{
+  0%{left:-5vw; top:0px;}
+  
+  100%{left:90vw; top:0px;}
+}
+
+.animation2{
+  width:230px;
+  height:230px;
+  position:relative;
+  animation-name:Kippie;
+  animation-duration:7s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
