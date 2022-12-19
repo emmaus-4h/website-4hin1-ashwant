@@ -181,9 +181,9 @@ nav li a.active {
  }
 
 @keyframes Dino{
-  0%{left:-5vw; top:0px;}
+  0%{left:-20vw; top:0px;}
   
-  100%{left:105vw; top:0px;}
+  100%{left:100vw; top:0px;}
 }
 
 .animation{
@@ -201,14 +201,6 @@ nav li a.active {
   height:220px;
 }
 
-.strook{
-  background-color:white;
-  border:solid 2px red;
-  width:100%;
-  height:230px;
-  
-}
-
 #deco{
   color: red;
   text-decoration: underline dotted;
@@ -216,9 +208,9 @@ nav li a.active {
 }
 
 @keyframes Kippie{
-  0%{left:-5vw; top:0px;}
+  0%{left:-5vw; top:-230px;}
   
-  100%{left:90vw; top:0px;}
+  100%{left:115vw; top:-230px;}
 }
 
 .animation2{
@@ -226,7 +218,7 @@ nav li a.active {
   height:230px;
   position:relative;
   animation-name:Kippie;
-  animation-duration:7s;
+  animation-duration:9s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
