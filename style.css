@@ -14,7 +14,17 @@ html, body {                      /* geldt voor html en body */
   background-image: url("afbeeldingen/groen.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+
 }  
+
+body {
+    
+}
+
+html {
+
+  min-height:100%;
+}
 
 body * {                          /* geldt voor alles in body */
   overflow: hidden;               /* zorgt dat DIV en andere block elementen de hoogte krijgt van wat erin zit (anders is het soms 0) */
@@ -39,21 +49,22 @@ body * {                          /* geldt voor alles in body */
 }
 
 .boxlinks{
-  
-  width:930px;
-  height: 780px;
-  /*border:solid red;
-  border-radius:20px;*/
+  width:49%;                  /*930px 780px*/
+  height: 70%;
+  min-width: 300px;
+  border:solid red;
+  border-radius:20px;
   float:left;
-  margin-left:10px;
-  margin-top:20px;
+  /*margin-left:10px;
+  margin-top:20px;*/
 }
 
 .boxrechts{
-  width:930px;
-  height: 780px;
-  /*border:solid red;
-  border-radius:40px;*/
+  width:49%;
+  height: 70%px;
+  min-width: 300px;
+  border:solid red;
+  border-radius:40px;
   float:right;
 }
 
@@ -157,16 +168,17 @@ nav li a.active {
 }
 
 .tlex{
-  width: 840px;
-  height: 520px;
+  width: 800px;
+  height: 500px;
   margin-top:20px;
   margin-right:auto;
   margin-left:auto;
+  
 }
 
 .spino{
   width: 800px;
-  height:420px;
+  height:500px;
   margin-top:20px;
   margin-right:auto;
   margin-left:auto;
