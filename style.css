@@ -38,44 +38,34 @@ body * {                          /* geldt voor alles in body */
 .boxbody{
   width:auto;
   height:100%;
-  /*border:solid blue;
-  border-radius:10px;*/
 }
 
 .boxnav {
   width: auto;                   /* vaste breedte van 700 pixels */
-  /*border:solid red;
-  border-radius:40px;*/
 }
 
 .boxlinks{
   width:49%;                  /*930px 780px*/
   height: 70%;
   min-width: 300px;
-  border:solid red;
   border-radius:20px;
   float:left;
-  /*margin-left:10px;
-  margin-top:20px;*/
 }
 
 .boxrechts{
   width:49%;
-  height: 70%px;
+  height: 70%;
   min-width: 300px;
-  border:solid red;
-  border-radius:40px;
   float:right;
 }
 
-.boxmidden {
- /*border: solid 20px red;*/
+/*.boxmidden {
   width:fit-content;
   margin-left:auto;
   margin-right:auto;
   display:flex;
   justify-content: center;
-}
+}*/
 
 main {                       
   text-align: justify;           /* tekst uitvullen */
@@ -171,18 +161,14 @@ nav li a.active {
   width: 800px;
   height: 500px;
   margin-top:20px;
-  margin-right:auto;
-  margin-left:auto;
-  
+  margin-left:20%;
 }
 
 .spino{
   width: 800px;
   height:500px;
   margin-top:20px;
-  margin-right:auto;
-  margin-left:auto;
-  
+  margin-left:15%;
 }
 
 .Pic1 {
